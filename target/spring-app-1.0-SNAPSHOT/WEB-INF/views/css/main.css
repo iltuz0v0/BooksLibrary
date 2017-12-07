@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body{
+    margin: 0px;
+    background-color: #fefefe;
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #555;
+}
+.accept{
+    background-color: #1111ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.accept:hover{
+    background-color: #1111aa;
+}
+.text_input{
+    display: inline-block;
+    margin-top: 5px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid #aa1111;
+    width: 200px;
+    height:30px;
+}
+.text_input:focus{
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid #1111ff;
+}
+.description_input{
+    display: inline-block;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #aa1111;
+    width: 200px;
+    height:100px;
+}
+.description_input:focus{
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid #1111ff;
+}
+.login_div{
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    box-shadow: 5px 5px 6px 3px #555555;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    background-color: #eee;
+}
+.login_div_label{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.registration_reference{
+    background-color: #ff2222;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.registration_reference:hover{
+    background-color: #aa2222;
+}
+.reference:hover{
+    background-color: #ff6666;
+}
+.wrong{
+    text-align: center;
+    color: #ff2222;
+    font-size: 16px;
+}
+.header{
+    background-color: #dddddd;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.footer{
+    background-color: #dddddd;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-top: 20px;
+}
+.logout{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff2222;
+    color: white;
+    margin: 0 auto;
+}
+.logout:hover{
+    background-color: #aa2222;
+}
+.nickname{
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    margin: 0 auto;
+    border-radius: 0px 10px 10px 0px;
+}
+.nickname:hover{
+    padding: 10px 30px;
+}
+.books_library{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    padding: 10px 10px;
+    color: #555;
+    margin: 0 auto;
+    font-size: 40px;
+}
+.book_add{
+    position: absolute;
+    top: 15px;
+    right: 180px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #1111ff;
+    color: white;
+    margin: 0 auto;
+}
+.book_add:hover{
+    background-color: #1111aa;
+}
+.book{
+    color: #111111;
+    border-radius: 10px;
+    width: 550px;
+    box-shadow: 5px 5px 6px 3px #555555;
+    overflow: hidden;
+    background-color: #ffffF9;
+    margin: auto;
+}
+.book_id{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.book_name{
+    position: relative;
+    float: left;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.book_author{
+    position: relative;
+    float: right;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.book_image{
+    margin-left: 5px;
+    border-radius: 5px;
+    position: relative;
+    width: 140px;
+    height: 200px;
+    float: left;
+    clear: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 3px 2px #555555;
+}
+.book_description{
+    margin-left: 16px;
+    position: relative;
+    float: left;
+    font-size: 16px;
+}
+.book_actions{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #F5F2DB;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.book_actions_element{
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    background-color: #1111ff;
+    padding: 20px 0px;
+}
+.book_actions_element:hover{
+    background-color: #1111aa;
+}
+.back_to_main_menu{
+    color: #123;
+}
+.back_to_main_menu:hover{
+    color: #111;
+}
+.title_book{
+    position: relative;
+    margin: auto;
+    font-size: 45px;
+    text-align: center;
+    background-color: #ffdfcf;
+    border-radius: 0px 0px 60px 60px;
+    box-shadow: 0px 0px 7px 0px #ff33cf;
+}
+.file{
+    background-color: #4CAFff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.image{
+    background-color: #4CAFff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.book_add_div{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    background-color: #eee;
+    box-shadow: 5px 5px 6px 3px #555555;
+}
+.book_delete_div{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    background-color: #eee;
+    box-shadow: 5px 5px 6px 3px #555555;
+}
+.book_download_div{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    background-color: #eee;
+    box-shadow: 5px 5px 6px 3px #555555;
+}
+.book_update_div{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    background-color: #eee;
+    overflow: hidden;
+    box-shadow: 5px 5px 6px 3px #555555;
+}
+.footer_references{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: #ccd;
+    box-shadow: 3px 3px 2px 2px #555;
+}
+.footer_reference{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1111aa;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.footer_reference:hover{
+    background-color: #1111ff;
+}
